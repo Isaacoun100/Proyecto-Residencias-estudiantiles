@@ -10,10 +10,13 @@ import java.util.Arrays;
 public class Residence {
 
     private String residenceName;
-    private Apartment[] apartments;
+    private Apartment[] apartments = new Apartment[0];
 
-    public Residence(Apartment[] apartments, String residenceName) {
-        this.apartments = apartments;
+    /**
+     * Constructor for the Residence object
+     * @param residenceName
+     */
+    public Residence(String residenceName) {
         this.residenceName = residenceName;
     }
 
@@ -35,7 +38,7 @@ public class Residence {
 
     public void addApartment(Apartment apartment) {
 
-        for (int i = 0; i < this.apartments.length; i++) {
+        for (int i = 0; i < this.apartments.length-1; i++) {
             if (this.apartments[i] == null){
                 this.apartments[i] = apartment;
                 return;

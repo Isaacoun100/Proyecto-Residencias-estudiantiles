@@ -7,9 +7,8 @@ package objects;
  */
 public class Student {
 
-    public Student(String name, String apartment) {
+    public Student(String name) {
         this.name = name;
-        this.apartment = apartment;
     }
 
     private String name;

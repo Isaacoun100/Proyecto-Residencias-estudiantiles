@@ -13,9 +13,12 @@ public class Apartment {
     private String apartmentName;
     private Student[] students = new Student[5];
 
-    public Apartment(String apartmentName, Student[] students) {
+    /**
+     * Constructor for the Apartment object
+     * @param apartmentName
+     */
+    public Apartment(String apartmentName) {
         this.apartmentName = apartmentName;
-        this.students = students;
     }
 
     public String getApartmentName() {
