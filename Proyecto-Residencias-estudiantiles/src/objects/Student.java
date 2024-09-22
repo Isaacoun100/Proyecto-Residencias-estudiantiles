@@ -7,17 +7,30 @@ package objects;
  */
 public class Student {
 
+    // The apartment string is not necessary at all, is added just to complete the idea
+    private String name;
+    private String apartment;
+
+    /**
+     * Constructor for the student object
+     * @param name
+     */
     public Student(String name) {
         this.name = name;
     }
 
-    private String name;
-    private String apartment;
-
+    /**
+     * Getter for the apartment
+     * @return
+     */
     public String getApartment() {
         return apartment;
     }
 
+    /**
+     * Setter for the apartment
+     * @param apartment
+     */
     public void setApartment(String apartment) {
         this.apartment = apartment;
     }
@@ -26,6 +39,10 @@ public class Student {
         return name;
     }
 
+    /**
+     * Setter for the name
+     * @param name
+     */
     public void setName(String name) {
         this.name = name;
     }
