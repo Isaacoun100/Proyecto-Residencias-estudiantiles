@@ -40,3 +40,5 @@ Este proyecto en Java gestiona una lista de residencias, sus apartamentos y los 
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/Isaacoun100/Proyecto-Residencias-estudiantiles
+
+![Alt text](UMLClassDiagran.png)
